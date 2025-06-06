@@ -14,7 +14,7 @@
     // Event listeners for the buttons
     
    document.addEventListener('keydown', function(e){
-    if (e.key === 'ArrwowRight' || e.key === 'ArrowLeft') {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
         if (e.key === 'ArrowRight') {
             currentSection = (currentSection + 1) % sections.length;
         } else if (e.key === 'ArrowLeft') {
