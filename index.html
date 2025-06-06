@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Centered Navigation and Sections</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <nav>
+      <button onclick="showSection('home')">Casa</button>
+      <button onclick="showSection('about')">Acerca de</button>
+      <button onclick="showSection('contact')">Contactos</button>
+    </nav>
+
+    <div class="container">
+      <div id="home" class="section">🏠 Welcome to the UNIVO</div>
+      <div id="about" class="section active">📖 About Us</div>
+      <div id="contact" class="section">📬 Contact Page</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
